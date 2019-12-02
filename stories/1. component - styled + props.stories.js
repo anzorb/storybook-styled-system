@@ -2,7 +2,7 @@ import React from "react";
 import El from "../src/components/component - styled + props";
 
 export default {
-	title: "Styled Component + styled system props",
+	title: "SS/Styled Component + styled system props",
 	component: El
 };
 
