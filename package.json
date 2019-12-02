@@ -1,0 +1,25 @@
+{
+  "name": "storybook-styled-system",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@storybook/addon-docs": "^5.2.8",
+    "@styled-system/prop-types": "^5.1.4",
+    "prop-types": "^15.7.2",
+    "styled-components": "^4.4.1",
+    "styled-system": "^5.1.4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.7.4",
+    "@storybook/addon-actions": "^5.2.8",
+    "@storybook/addon-links": "^5.2.8",
+    "@storybook/addons": "^5.2.8",
+    "@storybook/react": "^5.2.8",
+    "babel-loader": "^8.0.6"
+  },
+  "scripts": {
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  }
+}
